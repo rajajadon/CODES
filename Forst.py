@@ -1,4 +1,4 @@
-import streamlit 
+import streamlit as st
 import json
 st.file_uploader('upload the file',type=['pdf']
 st.button('submit')
